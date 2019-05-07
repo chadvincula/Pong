@@ -1,3 +1,4 @@
+// Added this comment
 "use strict"
 
 // initialize game
