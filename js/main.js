@@ -142,7 +142,7 @@ var GameOver = function(game) {};
 GameOver.prototype = {
 	preload: function()
 	{
-
+		console.log("Also fixed");
 	},
 
 	create: function()
