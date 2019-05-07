@@ -1,4 +1,5 @@
 // Added this comment
+// Added another comment
 "use strict"
 
 // initialize game
@@ -134,6 +135,24 @@ Play.prototype = {
 		// 	direction = -1;
 		this.ball.body.velocity.x = direction * this.BALL_VELOCITY;
 		this.ball.body.velocity.y = this.ball.body.velocity.y = game.rnd.integerInRange(-this.BALL_VELOCITY, this.BALL_VELOCITY);
+	}
+}
+
+var GameOver = function(game) {};
+GameOver.prototype = {
+	preload: function()
+	{
+
+	},
+
+	create: function()
+	{
+
+	},
+
+	update: function()
+	{
+		
 	}
 }
 
