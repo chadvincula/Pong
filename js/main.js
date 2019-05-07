@@ -26,6 +26,7 @@ var Play = function(game) {
 	this.BALL_WIDTH = 10;
 	this.BALL_VELOCITY = 300;
 	this.PADDLE_VELOCITY = 200;
+	this.score;
 };
 Play.prototype = {
 	create: function()
